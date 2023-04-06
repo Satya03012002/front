@@ -43,7 +43,7 @@ function Page2() {
     
     const sendRequest= async()=>{
       try{
-        const res = await axios.post(`http://localhost:8000/signin`, values)
+        const res = await axios.post(`https://backnd-weyp.onrender.com/signin`, values)
         
         const data = await res.data;
         return data;

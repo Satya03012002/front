@@ -19,7 +19,7 @@ function  Page1() {
             try{
             
     
-              const res = await axios.get(`http://localhost:8000/signin/data`);//https://jsonplaceholder.typicode.com/users
+              const res = await axios.get(`https://backnd-weyp.onrender.com/`);//https://jsonplaceholder.typicode.com/users
               
               const data = await res.data;
               //console.log(data)
